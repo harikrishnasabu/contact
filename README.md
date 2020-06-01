@@ -2,6 +2,6 @@ BackEnd :Node JS ,  [Server.js] all contact list
 http://localhost:8000/contacts
 Android App running with static values only
 Api interation pending
-![](contact/images/1.png)
+![](images/1.png)
 ![](images/2.png)
 
