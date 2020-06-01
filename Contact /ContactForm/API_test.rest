@@ -1,0 +1,20 @@
+GET http://localhost:8000/contacts HTTP/1.1
+
+###
+GET http://localhost:8000/dresses/3 HTTP/1.1
+
+###
+DELETE http://localhost:8000/dresses/2 HTTP/1.1
+
+
+###
+POST http://localhost:8000/insert_contacts HTTP/1.1
+Content-Type: application/x-www-form-urlencoded
+
+firstName=john&lastName=Bosco
+
+###
+PUT http://localhost:8000/contacts/sabu@gmail.com HTTP/1.1
+Content-Type: application/x-www-form-urlencoded
+
+firstName=harikrishna&lastName=sabu
